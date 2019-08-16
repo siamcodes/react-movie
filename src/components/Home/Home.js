@@ -13,7 +13,7 @@ class Home extends Component {
     this.search('War')
   }
 
-  search = keyword => {
+  search = (keyword) => {
     //console.log(keyword);
     var dataArray = [];
     var url =

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class MovieItem extends Component {
     constructor(props) {
@@ -24,4 +24,4 @@ export class MovieItem extends Component {
     }
 }
 
-export default MovieItem
+export default MovieItem;
