@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-import './Footer.css';
-import { Row, Col } from 'antd';
+import React, { Component } from "react";
+import "./Footer.css";
 
 class Footer extends Component {
-
     render() {
         return (
-            <div>
-                <Row style={{ backgroundColor: '#b3e5fc', color: '#000', paddingLeft: 2 }}>
-                    <Col span={24}>Copyright@2019 </Col>
-                </Row>
+            <div className="footer">
+
+                <p> Copyright@2019 Dsign by Somkiat Jaidee</p>
+
             </div>
         )
     }
 }
+
 export default Footer;

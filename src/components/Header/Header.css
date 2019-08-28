@@ -1,0 +1,19 @@
+.navbar{
+    display: inline-block;
+    background-color: #e1bee7;
+    width: 100%;
+    padding: 2px;
+}
+
+.navlink{
+    float: left;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.navlink:hover{
+    color: #000;
+    display: block;
+    background-color: #fff;
+}

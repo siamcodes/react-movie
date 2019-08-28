@@ -1,35 +1,64 @@
-.App {
-  text-align: center;
+.myForm{
+  width: 100%;
+  background-color: #dfe6e9;
+  padding: 20px 12px 10px 20px;
+	border-radius: 30px;
+	border: 1px dashed #FF8500;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.myLabel{
+  display: block;
+  margin: 0px 0px 15px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myLabel>span{
+	width: 150px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.myInput{
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EEE;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 7px;
+	outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myInput:focus{
+  border: 3px solid #0C0;
 }
+
+.myButton{
+  border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+.myButton:hover{
+  background-color: #0C0;
+}
+
+
+.myList{
+  list-style: none;
+}
+
 
 

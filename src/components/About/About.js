@@ -1,29 +1,45 @@
 import React, { Component } from 'react';
-import { DatePicker, message, Alert } from 'antd';
 import './About.css';
 
 class About extends Component {
-    state = {
-        date: null,
-    };
-
-    handleChange = date => {
-        message.info(`Selected Date: ${date ? date.format('YYYY-MM-DD') : 'None'}`);
-        this.setState({ date });
-    };
-
-    render() {
-        const { date } = this.state;
-        
+    render() {  
         return (
-            <div>About Page
-                        <div style={{ width: 400, margin: '100px auto' }}>
-                    <DatePicker onChange={this.handleChange} />
-                    <div style={{ marginTop: 20 }}>
-                        Selected Date: {date ? date.format('YYYY-MM-DD') : 'None'}
-                        <Alert message={`Selected Date: ${date ? date.format('YYYY-MM-DD') : 'None'}`} type="success" />
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <img src="images/pic1.jpg" className="img-fluid" />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-4">
+                        <img src="images/pic2.jpg" className="img-fluid" />
+                    </div>
+                    <div className="col-8">
+                        <img src="images/pic3.jpg" className="img-fluid" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-7">
+                        <img src="images/pic4.jpg" className="img-fluid" />
+                    </div>
+                    <div className="col-5">
+                        <img src="images/pic5.jpg" className="img-fluid" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-3">
+                        <img src="images/pic6.jpg" className="img-fluid" />
+                    </div>
+                    <div className="col-3">
+                        <img src="images/pic7.jpg" className="img-fluid" />
+                    </div>
+                    <div className="col-3">
+                        <img src="images/pic8.jpg" className="img-fluid" />
+                    </div>
+                    <div className="col-3">
+                        <img src="images/pic9.jpg" className="img-fluid" />
+                    </div>
+                </div> 
             </div>
         )
     }
